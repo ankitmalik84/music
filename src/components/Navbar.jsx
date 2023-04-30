@@ -5,8 +5,7 @@ import { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
-
+  const [showIcons, setShowIcons] = useState(false);
   return (
     <>
       <nav
@@ -23,9 +22,7 @@ const Navbar = () => {
         </div>
         {/* 2nd logo part  */}
         <div
-          className={
-            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }
+          className={showIcons ? "menu-link mobile-menu-link" : "menu-link"}
           data-aos='zoom-out'
           data-aos-delay='100'
           data-aos-easing='ease-in-out'
@@ -49,9 +46,8 @@ const Navbar = () => {
         </div>
         <div className='social-media'>
           <ul className='social-media-desktop'></ul>
-          {/* hamburget menu start  */}
           <div className='hamburger-menu'>
-            <a href='#'>
+            <a href='#no'>
               <GiHamburgerMenu />
             </a>
           </div>

@@ -8,14 +8,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div
-        className='footer'
-        data-aos='fade-up'
-        data-aos-delay='100'
-        data-aos-duration='10'
-        data-aos-easing='ease-in-out'
-        data-aos-offset='320'
-      >
+      <div className='footer'>
         <div className='foot-container'>
           <div className='owner'>
             <h2>Frontend Showdown Round-2</h2>

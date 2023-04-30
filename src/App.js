@@ -11,7 +11,6 @@ function App() {
   AOS.init();
   return (
     <>
-      {/* <Navbar /> */}
       <div className='content'>
         <Routes>
           <Route path='/' element={<Home />} />

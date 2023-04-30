@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.footer{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    position: relative;
+    bottom: 0;
+}
+.text-center{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.text-center-low{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 450px;
+    margin-bottom: 40px; 
+    margin-left: 30px;
+    margin-right: auto;
+    transition: all .4s;
+}
+.back-button{
+    font-size: 20px;
+}
+.card:hover{
+    background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: all .4s;
+    color: rgb(255, 255, 255);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+  }
+.card-text {
+    font-size: 15px;
+}
+
+.text-box {
+    height: 50px;
+    
+}
+.text-box>button{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #201f1f;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@media only screen and (max-width: 990px) {
+    .card{
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}

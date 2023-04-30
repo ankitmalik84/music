@@ -14,17 +14,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div
-        className='hero'
-        data-aos='fade-left'
-        data-aos-easing='ease-in-out'
-        // data-aos-duration='100'
-        // data-aos-delay='0.5s'
-      >
+      <div className='hero' data-aos='fade-left' data-aos-easing='ease-in-out'>
         <div className='hero-img'>
-          <img src={img1} alt='image' />
+          <img src={img1} alt='no found' />
           <div className='hero-text'>
-            <h2>Music Thearpy</h2>
+            <h2>Music Therapy</h2>
             <p>
               Music Therapy for Depression can make the difference between
               withdrawal and awareness, between isolation and interaction,
@@ -43,14 +37,14 @@ const Home = () => {
         <div className='description-img'>
           <img
             src={img2}
-            alt='image'
+            alt='no found'
             className='big-img'
             data-aos='flip-left'
             data-aos-easing='ease-in-out'
           />
           <img
             src={img3}
-            alt='image'
+            alt='no found'
             className='small-img'
             data-aos='flip-right'
             data-aos-easing='ease-in-out'
@@ -58,19 +52,21 @@ const Home = () => {
         </div>
         <div className='description-text' id='description'>
           <h3>
-            About Us{" "}
+            Description{" "}
             <span>
               <img src={logo} alt='' className='textlogo' />
             </span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at
-            pharetra nisl. Praesent gravida, velit non ullamcorper dapibus,
-            turpis risus tincidunt massa, ac vehicula sapien orci non leo.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas. Praesent vel orci quis turpis bibendum
-            ullamcorper. Vestibulum nec mi at nisl rutrum ultrices. In sit amet
-            ullamcorper ante.
+            Music therapy is a healthcare profession that uses music to address
+            physical, emotional, cognitive, and social needs. It involves a
+            range of techniques, from active music-making to receptive
+            listening, and can be used to promote relaxation, reduce stress,
+            improve mood, enhance communication, and support physical and
+            emotional healing. Music therapists work with people of all ages and
+            backgrounds, including those with mental health disorders,
+            neurological conditions, physical disabilities, and chronic
+            illnesses.
           </p>
         </div>
       </div>
@@ -84,37 +80,27 @@ const Home = () => {
             </span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at
-            pharetra nisl. Praesent gravida, velit non ullamcorper dapibus,
-            turpis risus tincidunt massa, ac vehicula sapien orci non leo.
+            Music therapy has a rich history that spans back centuries. The
+            ancient Greeks and Romans recognized the therapeutic benefits of
+            music and used it in healing rituals. In the 18th and 19th
+            centuries, music was used in psychiatric hospitals as a means of
+            calming patients and reducing agitation.
+            <br />
+            The modern field of music therapy emerged during World War II, when
+            musicians began playing for wounded soldiers in hospitals.It wasn't
+            until the 1950s that music therapy became a formalized profession,
+            with the establishment of academic programs and professional
+            organizations.
           </p>
         </div>
         <div className='history-img'>
-          <img src={img1} alt='image' />
+          <img src={img1} alt='no found' />
         </div>
       </div>
-      {/* <div className='footer'>
-        <div className='footer-img'>
-          <img src={img2} alt='image' />
-          <div className='footer-link'>
-            <ul>
-              <li>
-                <a href=''></a>
-              </li>
-              <li>
-                <a href=''></a>
-              </li>
-              <li>
-                <a href=''></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
       <div className='big-foot'>
         <h1>Designed By- Ankit Malik</h1>
       </div>
-      <Footer />
+      <Footer className='footer' />
     </>
   );
 };

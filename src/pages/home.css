@@ -76,14 +76,14 @@
   }
   
   .description-text h3 {
-    font-size: 26px;
+    font-size: 29px;
     margin-bottom: 20px;
   }
   .textlogo{
     height: 35px;
   }
   .description-text p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
   }
   /* History Section */
@@ -119,12 +119,12 @@
 }
 
 .history-text h3 {
-  font-size: 26px;
+  font-size: 29px;
   margin-bottom: 20px;
 }
 
 .history-text p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -142,33 +142,8 @@
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 3px;
-  text-shadow: 0 6.36px 10.896px #857e73,0 -2px 1px #fff;
-}
-/*
-.history:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("../images/SRL_8275.jpg") center/cover no-repeat fixed;
-  z-index: -1;
-  background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
-} */
-/* .bghistory{
-  width: 100%;
-  position: relative;
-  z-index: -1;
-  /* height: 500px; 
-} */
-
-  /* Media queries for responsiveness */
-  
+  /* text-shadow: 0 6.36px 10.896px #857e73,0 -2px 1px #fff; */
+}  
   @media only screen and (max-width: 990px) {
     .hero-text {
       padding-left: 20px;
@@ -241,6 +216,12 @@ background-size: cover;
     .history-text p {
       padding-left: 20px;
       font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 450px){
+    .big-foot{
+      font-size: 12px;
+      padding-top: 25px;
     }
   }
   
