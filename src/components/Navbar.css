@@ -167,7 +167,7 @@ li {
 
   .mobile-menu-link {
     grid-column: 2/4;
-    position: relative;
+    position: absolute;
     z-index: 99;
   }
 

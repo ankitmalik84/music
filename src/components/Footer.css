@@ -1,0 +1,39 @@
+.footer{
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background: #020024;
+    width: 100%;
+    /* z-index: 1000; */
+}
+.footer > div{
+    padding: 0 1rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.foot-links > ul{
+    display: flex;
+    cursor: pointer;
+}
+.foot-link > div{
+    padding: .2rem .5rem;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+.foot-link:hover > div{
+    transform: scale(1.1);
+}
+.foot-container{
+    width: 100%;
+}
+.owner{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.name{
+    font-size: 1.4rem;
+}
