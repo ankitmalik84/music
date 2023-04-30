@@ -1,0 +1,152 @@
+/* Default styles */
+
+.hero {
+    position: relative;
+  }
+  
+  .hero-img {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hero-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: #fff;
+  }
+  
+  .hero-text h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 22px;
+    margin: 0;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  
+  .description-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .big-img {
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #000;
+    margin-bottom: 10px;
+  }
+  
+  .small-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -30px;
+    border: 5px solid #000;
+  }
+    
+  .description-text {
+    margin-left: 40px;
+    width: 50%;
+  }
+  
+  .description-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .description-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* History Section */
+/* .history {
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.history:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../images/SRL_8275.jpg") center/cover no-repeat fixed;
+  z-index: -1;
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+
+  /* Media queries for responsiveness */
+  
+  @media only screen and (max-width: 768px) {
+    .hero-text {
+      left: 20px;
+    }
+    
+    .description {
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .description-img {
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .big-img {
+      height: 300px;
+      margin-bottom: 5px;
+    }
+    
+    .small-img {
+      width: 100px;
+      height: 100px;
+      margin-right: -20px;
+    }
+    
+    .description-text {
+      margin-left: 0;
+      width: 100%;
+    }
+    
+    .description-text h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .description-text p {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+  }
+  
