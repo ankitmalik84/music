@@ -53,7 +53,7 @@ const cards = [
   },
   {
     image: img6,
-    title: "Music Therapy and Addiction: Supporting Recovery ",
+    title: "Music Therapy and Addiction ",
     text: "Discover how music therapy can be integrated into addiction treatment programs to support recovery, reduce stress",
     description:
       "Music therapy can be used to address a range of challenges that individuals with addiction may face, including anxiety, depression, trauma, and cravings. Through music, individuals can learn to express themselves in healthy ways, regulate their emotions, and build coping skills.For individuals in recovery, music therapy can provide a sense of comfort and support, helping them to deal with the emotional challenges that can arise during the recovery process. Music can also provide a positive outlet for emotions, helping individuals to process their feelings without turning to drugs or alcohol.",
