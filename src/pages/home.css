@@ -32,6 +32,7 @@
     margin-top: 20%;
     font-size: 50px;
     margin-bottom: 10px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
   
   .hero-text p {
@@ -76,14 +77,15 @@
   }
   
   .description-text h3 {
-    font-size: 29px;
+    font-size: 30px;
     margin-bottom: 20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
   .textlogo{
     height: 35px;
   }
   .description-text p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
   }
   /* History Section */
@@ -121,10 +123,11 @@
 .history-text h3 {
   font-size: 29px;
   margin-bottom: 20px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .history-text p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -181,7 +184,7 @@
     }
     
     .description-text p {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 1.2;
     }
     .history {

@@ -17,10 +17,11 @@ const Home = () => {
           <div className='hero-text'>
             <h2>Music Therapy</h2>
             <p>
-              Music Therapy for Depression can make the difference between
-              withdrawal and awareness, between isolation and interaction,
-              between chronic pain and comfort — between demoralization and
-              dignity.
+              Music therapy is a clinical and evidence-based practice that uses
+              the therapeutic and healing qualities of music to address
+              physical, emotional, cognitive, and social needs of individuals.
+              It is a creative and versatile form of therapy that can be
+              tailored to meet the unique needs of each individual.
             </p>
           </div>
         </div>
@@ -81,13 +82,11 @@ const Home = () => {
             ancient Greeks and Romans recognized the therapeutic benefits of
             music and used it in healing rituals. In the 18th and 19th
             centuries, music was used in psychiatric hospitals as a means of
-            calming patients and reducing agitation.
-            <br />
-            The modern field of music therapy emerged during World War II, when
-            musicians began playing for wounded soldiers in hospitals.It wasn't
-            until the 1950s that music therapy became a formalized profession,
-            with the establishment of academic programs and professional
-            organizations.
+            calming patients and reducing agitation. The modern field of music
+            therapy emerged during World War II, when musicians began playing
+            for wounded soldiers in hospitals.It wasn't until the 1950s that
+            music therapy became a formalized profession, with the establishment
+            of academic programs and professional organizations.
           </p>
         </div>
         <div className='history-img'>
