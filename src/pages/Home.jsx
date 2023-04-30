@@ -1,8 +1,5 @@
 import React from "react";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import "./home.css";
-// import Bgslider from "../components/Bgslider";
 import Navbar from "../components/Navbar";
 import img1 from "../images/SRL_8275.jpg";
 import img2 from "../images/11062b_f1101ad098ad460dbc81d517f366e25e~mv2.jpg";
