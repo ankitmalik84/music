@@ -1,0 +1,10 @@
+The Technology I used in my site
+1.CSS
+2.Bootstrap
+3.ReactJs
+4.React aos
+5.React icons
+6.Google fonts
+7.Images on different sites
+
+
