@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className='hero' data-aos='fade-left' data-aos-easing='ease-in-out'>
+      <div className='hero'>
         <div className='hero-img'>
           <img src={img1} alt='image' />
           <div className='hero-text'>
@@ -51,11 +51,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <img src={img1} alt='history bakcgorund image' />
-      <div className='history'>
-        <div className='history-img'>
-          <img src={img1} alt='image' />
-        </div>
+      {/* <img src={img1} alt='history bakcgorund image' className='bghistory' /> */}
+      <div className='history' data-aos='zoom-in' data-aos-easing='ease-in-out'>
         <div className='history-text'>
           <h3>History</h3>
           <p>
@@ -64,12 +61,15 @@ const Home = () => {
             turpis risus tincidunt massa, ac vehicula sapien orci non leo.
           </p>
         </div>
+        <div className='history-img'>
+          <img src={img1} alt='image' />
+        </div>
       </div>
       <div className='blogredirect'>
         <h1>To see the blog review click here</h1>
         <button></button>
       </div>
-      <div className='footer'>
+      {/* <div className='footer'>
         <div className='footer-img'>
           <img src={img2} alt='image' />
           <div className='footer-link'>
@@ -86,7 +86,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
